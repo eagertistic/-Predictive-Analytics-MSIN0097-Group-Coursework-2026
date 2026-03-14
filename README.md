@@ -1,1 +1,1 @@
-# -Predictive-Analytics-MSIN0097-Group-Coursework-2026
+This is a group project for 2026 Predictive-Analytics MSIN0097 
