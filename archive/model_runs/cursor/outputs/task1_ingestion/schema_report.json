@@ -1,0 +1,133 @@
+{
+  "row_count": 6607,
+  "column_count": 20,
+  "columns": [
+    "Hours_Studied",
+    "Attendance",
+    "Parental_Involvement",
+    "Access_to_Resources",
+    "Extracurricular_Activities",
+    "Sleep_Hours",
+    "Previous_Scores",
+    "Motivation_Level",
+    "Internet_Access",
+    "Tutoring_Sessions",
+    "Family_Income",
+    "Teacher_Quality",
+    "School_Type",
+    "Peer_Influence",
+    "Physical_Activity",
+    "Learning_Disabilities",
+    "Parental_Education_Level",
+    "Distance_from_Home",
+    "Gender",
+    "Exam_Score"
+  ],
+  "dtypes": {
+    "Hours_Studied": "int64",
+    "Attendance": "int64",
+    "Parental_Involvement": "object",
+    "Access_to_Resources": "object",
+    "Extracurricular_Activities": "object",
+    "Sleep_Hours": "int64",
+    "Previous_Scores": "int64",
+    "Motivation_Level": "object",
+    "Internet_Access": "object",
+    "Tutoring_Sessions": "int64",
+    "Family_Income": "object",
+    "Teacher_Quality": "object",
+    "School_Type": "object",
+    "Peer_Influence": "object",
+    "Physical_Activity": "int64",
+    "Learning_Disabilities": "object",
+    "Parental_Education_Level": "object",
+    "Distance_from_Home": "object",
+    "Gender": "object",
+    "Exam_Score": "int64"
+  },
+  "unnamed_columns": [],
+  "duplicate_column_names": [],
+  "duplicate_row_count": 0,
+  "missing_values": {
+    "Hours_Studied": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Attendance": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Parental_Involvement": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Access_to_Resources": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Extracurricular_Activities": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Sleep_Hours": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Previous_Scores": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Motivation_Level": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Internet_Access": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Tutoring_Sessions": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Family_Income": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Teacher_Quality": {
+      "missing_count": 78,
+      "missing_pct": 0.011805660662933253
+    },
+    "School_Type": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Peer_Influence": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Physical_Activity": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Learning_Disabilities": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Parental_Education_Level": {
+      "missing_count": 90,
+      "missing_pct": 0.013621916149538369
+    },
+    "Distance_from_Home": {
+      "missing_count": 67,
+      "missing_pct": 0.010140759800211896
+    },
+    "Gender": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "Exam_Score": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    }
+  }
+}

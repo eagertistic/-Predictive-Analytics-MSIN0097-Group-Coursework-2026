@@ -1,0 +1,24 @@
+{
+  "warnings": [],
+  "imputation_summary": {
+    "numeric_strategy": "median",
+    "categorical_strategy": "mode (or 'Unknown' if empty)",
+    "created_missing_indicators": 3,
+    "rows_before": 6607,
+    "rows_after": 6607
+  },
+  "imputation_details": {
+    "numeric_fill_values": {},
+    "categorical_fill_values": {
+      "Teacher_Quality": "Medium",
+      "Parental_Education_Level": "High School",
+      "Distance_from_Home": "Near"
+    },
+    "indicator_columns": [
+      "Teacher_Quality__was_missing",
+      "Parental_Education_Level__was_missing",
+      "Distance_from_Home__was_missing"
+    ]
+  },
+  "deduplicated_rows_dropped": 0
+}

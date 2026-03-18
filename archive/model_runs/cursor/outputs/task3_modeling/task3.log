@@ -1,0 +1,42 @@
+2026-03-17T14:51:07Z | INFO | logging_started path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task3_modeling/task3.log
+2026-03-17T14:51:07Z | INFO | loading_cleaned_dataset path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-17T14:51:07Z | INFO | split_done train=5285 test=1322 target=Exam_Score
+2026-03-17T14:51:07Z | INFO | training_model name=dummy_mean
+2026-03-17T14:51:52Z | INFO | logging_started path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task3_modeling/task3.log
+2026-03-17T14:51:52Z | INFO | loading_cleaned_dataset path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-17T14:51:52Z | INFO | split_done train=5285 test=1322 target=Exam_Score
+2026-03-17T14:51:52Z | INFO | training_model name=dummy_mean
+2026-03-17T14:51:52Z | INFO | eval name=dummy_mean mae=2.8235 rmse=3.7611 r2=-0.0007
+2026-03-17T14:51:52Z | INFO | training_model name=ridge
+2026-03-17T14:51:52Z | INFO | eval name=ridge mae=0.4499 rmse=1.8033 r2=0.7699
+2026-03-17T14:51:52Z | INFO | training_model name=rf
+2026-03-17T14:51:54Z | INFO | eval name=rf mae=1.0755 rmse=2.1470 r2=0.6739
+2026-03-17T14:51:54Z | INFO | task3_complete
+2026-03-18T12:59:23Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task3_modeling/task3.log
+2026-03-18T12:59:23Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T12:59:23Z | INFO | split_done train=5285 test=1322 target=Exam_Score
+2026-03-18T12:59:23Z | INFO | training_model name=dummy_mean
+2026-03-18T12:59:23Z | INFO | eval name=dummy_mean mae=2.8235 rmse=3.7611 r2=-0.0007
+2026-03-18T12:59:23Z | INFO | training_model name=ridge
+2026-03-18T12:59:23Z | INFO | eval name=ridge mae=0.4499 rmse=1.8033 r2=0.7699
+2026-03-18T12:59:23Z | INFO | training_model name=rf
+2026-03-18T12:59:56Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task3_modeling/task3.log
+2026-03-18T12:59:56Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T12:59:56Z | INFO | split_done train=5285 test=1322 target=Exam_Score
+2026-03-18T12:59:56Z | INFO | training_model name=dummy_mean
+2026-03-18T12:59:56Z | INFO | eval name=dummy_mean mae=2.8235 rmse=3.7611 r2=-0.0007
+2026-03-18T12:59:56Z | INFO | training_model name=ridge
+2026-03-18T12:59:56Z | INFO | eval name=ridge mae=0.4499 rmse=1.8033 r2=0.7699
+2026-03-18T12:59:56Z | INFO | training_model name=rf
+2026-03-18T13:00:02Z | INFO | eval name=rf mae=1.0755 rmse=2.1470 r2=0.6739
+2026-03-18T13:00:02Z | INFO | task3_complete
+2026-03-18T13:00:58Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/archive/model_runs/cursor/outputs/task3_modeling/task3.log
+2026-03-18T13:00:58Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/archive/model_runs/cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T13:00:58Z | INFO | split_done train=5285 test=1322 target=Exam_Score
+2026-03-18T13:00:58Z | INFO | training_model name=dummy_mean
+2026-03-18T13:00:58Z | INFO | eval name=dummy_mean mae=2.8235 rmse=3.7611 r2=-0.0007
+2026-03-18T13:00:58Z | INFO | training_model name=ridge
+2026-03-18T13:00:58Z | INFO | eval name=ridge mae=0.4499 rmse=1.8033 r2=0.7699
+2026-03-18T13:00:58Z | INFO | training_model name=rf
+2026-03-18T13:01:04Z | INFO | eval name=rf mae=1.0755 rmse=2.1470 r2=0.6739
+2026-03-18T13:01:04Z | INFO | task3_complete

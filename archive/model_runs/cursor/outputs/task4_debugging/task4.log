@@ -1,0 +1,12 @@
+2026-03-17T14:52:32Z | INFO | logging_started path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task4_debugging/task4.log
+2026-03-17T14:52:32Z | INFO | loading_cleaned_dataset path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-17T14:52:32Z | INFO | running_broken_pipeline (expected_to_fail)=true
+2026-03-17T14:52:32Z | ERROR | broken_pipeline_failed type=ValueError message=could not convert string to float: 'Low'
+2026-03-17T14:52:32Z | INFO | running_fixed_pipeline
+2026-03-17T14:52:32Z | INFO | task4_complete fixed_rmse=1.8033
+2026-03-18T12:59:23Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task4_debugging/task4.log
+2026-03-18T12:59:23Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T12:59:23Z | INFO | running_broken_pipeline (expected_to_fail)=true
+2026-03-18T12:59:23Z | ERROR | broken_pipeline_failed type=ValueError message=could not convert string to float: 'Low'
+2026-03-18T12:59:23Z | INFO | running_fixed_pipeline
+2026-03-18T12:59:23Z | INFO | task4_complete fixed_rmse=1.8033

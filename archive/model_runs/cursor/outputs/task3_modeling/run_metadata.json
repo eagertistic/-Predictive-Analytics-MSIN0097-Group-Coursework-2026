@@ -1,0 +1,10 @@
+{
+  "utc_timestamp": "2026-03-18T13:00:58.339624+00:00",
+  "python_version": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cwd": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\archive\\model_runs\\cursor",
+  "project_root": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\archive\\model_runs\\cursor",
+  "data_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\archive\\model_runs\\cursor\\data\\StudentPerformanceFactors.csv",
+  "random_seed": 42,
+  "task": "3_baseline_modeling"
+}

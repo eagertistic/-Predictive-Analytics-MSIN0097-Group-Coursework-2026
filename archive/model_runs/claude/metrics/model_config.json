@@ -1,0 +1,46 @@
+{
+  "target": "Exam_Score",
+  "task_type": "regression",
+  "seed": 42,
+  "test_size": 0.2,
+  "stratify_by": "quintile(Exam_Score)",
+  "n_train": 5285,
+  "n_test": 1322,
+  "numeric_features": [
+    "Hours_Studied",
+    "Attendance",
+    "Sleep_Hours",
+    "Previous_Scores",
+    "Tutoring_Sessions",
+    "Physical_Activity"
+  ],
+  "categorical_features": [
+    "Parental_Involvement",
+    "Access_to_Resources",
+    "Extracurricular_Activities",
+    "Motivation_Level",
+    "Internet_Access",
+    "Family_Income",
+    "Teacher_Quality",
+    "School_Type",
+    "Peer_Influence",
+    "Learning_Disabilities",
+    "Parental_Education_Level",
+    "Distance_from_Home",
+    "Gender"
+  ],
+  "models": {
+    "DummyRegressor": {
+      "strategy": "mean"
+    },
+    "Ridge": {
+      "alpha": 1.0,
+      "cv_folds": 5
+    },
+    "RandomForest": {
+      "n_estimators": 200,
+      "min_samples_leaf": 4,
+      "cv_folds": 5
+    }
+  }
+}

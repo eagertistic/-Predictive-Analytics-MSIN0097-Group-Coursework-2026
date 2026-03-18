@@ -1,0 +1,15 @@
+2026-03-17T14:49:08Z | INFO | logging_started path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task2_eda/task2.log
+2026-03-17T14:49:08Z | INFO | loading_cleaned_dataset path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-17T14:49:08Z | INFO | eda_target_selected target=Exam_Score dtype=int64
+2026-03-17T14:49:14Z | INFO | task2_complete plots_dir=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task2_eda/plots
+2026-03-18T12:59:23Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task2_eda/task2.log
+2026-03-18T12:59:23Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T12:59:23Z | INFO | eda_target_selected target=Exam_Score dtype=int64
+2026-03-18T12:59:56Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task2_eda/task2.log
+2026-03-18T12:59:56Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T12:59:56Z | INFO | eda_target_selected target=Exam_Score dtype=int64
+2026-03-18T12:59:58Z | INFO | task2_complete plots_dir=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task2_eda/plots
+2026-03-18T13:00:58Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/archive/model_runs/cursor/outputs/task2_eda/task2.log
+2026-03-18T13:00:58Z | INFO | loading_cleaned_dataset path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/archive/model_runs/cursor/outputs/task1_ingestion/cleaned_student_performance.csv
+2026-03-18T13:00:58Z | INFO | eda_target_selected target=Exam_Score dtype=int64
+2026-03-18T13:01:00Z | INFO | task2_complete plots_dir=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/archive/model_runs/cursor/outputs/task2_eda/plots

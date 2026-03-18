@@ -1,0 +1,10 @@
+{
+  "utc_timestamp": "2026-03-18T12:59:22.783544+00:00",
+  "python_version": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cwd": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\PA_GW_Cursor",
+  "project_root": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\PA_GW_Cursor",
+  "data_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\PA_GW_Cursor\\data\\StudentPerformanceFactors.csv",
+  "random_seed": 42,
+  "task": "1_ingestion_schema_missingness"
+}

@@ -1,0 +1,14 @@
+column,unique,top,top_count
+Access_to_Resources,3,Medium,3319
+Distance_from_Home,3,Near,3951
+Extracurricular_Activities,2,Yes,3938
+Family_Income,3,Low,2672
+Gender,2,Male,3814
+Internet_Access,2,Yes,6108
+Learning_Disabilities,2,No,5912
+Motivation_Level,3,Medium,3351
+Parental_Education_Level,3,High School,3313
+Parental_Involvement,3,Medium,3362
+Peer_Influence,3,Positive,2638
+School_Type,2,Public,4598
+Teacher_Quality,3,Medium,4003

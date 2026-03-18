@@ -1,0 +1,26 @@
+[
+  {
+    "task": "Task 1 \u2014 Ingestion & Schema",
+    "script": "task1_ingestion.py",
+    "status": "SUCCESS",
+    "elapsed_s": 1.4
+  },
+  {
+    "task": "Task 2 \u2014 EDA",
+    "script": "task2_eda.py",
+    "status": "SUCCESS",
+    "elapsed_s": 11.6
+  },
+  {
+    "task": "Task 3 \u2014 Model Training",
+    "script": "task3_models.py",
+    "status": "SUCCESS",
+    "elapsed_s": 22.1
+  },
+  {
+    "task": "Task 4 \u2014 Debugging",
+    "script": "task4_debug.py",
+    "status": "SUCCESS",
+    "elapsed_s": 4.3
+  }
+]

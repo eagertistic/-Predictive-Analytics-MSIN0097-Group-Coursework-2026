@@ -1,0 +1,12 @@
+2026-03-17T14:47:21Z | INFO | logging_started path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task1_ingestion/task1.log
+2026-03-17T14:47:21Z | INFO | reading_csv path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/data/StudentPerformanceFactors.csv
+2026-03-17T14:47:21Z | INFO | dataset_loaded rows=6607 cols=20 dup_rows=0
+2026-03-17T14:47:21Z | INFO | missing_indicators_created count=3
+2026-03-17T14:47:21Z | INFO | cleaned_dataset_saved path=C:/Users/Tete/Desktop/MSIN0097-Predictive Analytics/Group Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv rows=6607 cols=23
+2026-03-17T14:47:21Z | INFO | task1_complete
+2026-03-18T12:59:22Z | INFO | logging_started path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/task1.log
+2026-03-18T12:59:22Z | INFO | reading_csv path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/data/StudentPerformanceFactors.csv
+2026-03-18T12:59:22Z | INFO | dataset_loaded rows=6607 cols=20 dup_rows=0
+2026-03-18T12:59:22Z | INFO | missing_indicators_created count=3
+2026-03-18T12:59:23Z | INFO | cleaned_dataset_saved path=C:/Users/jackp/Desktop/MSIN0097-Group-Coursework/PA_GW_Cursor/outputs/task1_ingestion/cleaned_student_performance.csv rows=6607 cols=23
+2026-03-18T12:59:23Z | INFO | task1_complete
