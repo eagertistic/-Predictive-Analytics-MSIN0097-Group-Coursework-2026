@@ -2,12 +2,13 @@ This folder stores alternate AI-generated coursework runs in a consistent compar
 
 ## Structure
 
+- `model_runs/codex/`
 - `model_runs/claude/`
 - `model_runs/cursor/`
 - `model_runs/copilot/`
 - `model_runs/antigravity/`
 
-The repository root remains the canonical `Codex` workflow.
+The repository root remains the canonical `Codex` workflow, and `model_runs/codex/` is a copied snapshot for side-by-side archive comparison.
 
 Each alternate model should keep all of its artifacts inside its own folder under `archive/model_runs/`.
 

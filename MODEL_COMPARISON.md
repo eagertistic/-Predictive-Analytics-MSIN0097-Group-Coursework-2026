@@ -2,6 +2,20 @@
 
 This repository now uses a consistent comparison layout for multiple AI model runs on the same coursework prompt and dataset.
 
+## Experimental Design
+
+Our practical exploration used one common dataset, `StudentPerformanceFactors.csv`, and one common multi-step prompt so that outputs from different AI agents could be compared fairly rather than impressionistically. The dataset contains 6,607 rows and 20 columns, with a mix of numeric and categorical student-performance variables such as `Hours_Studied`, `Attendance`, `Previous_Scores`, `Motivation_Level`, and the final outcome `Exam_Score`. Initial profiling showed no duplicate rows, but it did reveal limited missingness in three categorical fields: `Teacher_Quality`, `Parental_Education_Level`, and `Distance_from_Home`. This mattered because every agent had to work from the same raw evidence before generating insights or models.
+
+The shared prompt throughout the pipeline was effectively the same four-part instruction: first, load the CSV safely, inspect schema and missingness, and save a cleaned dataset; second, produce exploratory data analysis with summary statistics, plots, and concise evidence-based insights; third, train a leakage-safe baseline modeling pipeline using `Exam_Score` as the target and save metrics, predictions, and configuration; fourth, create a deliberately broken pipeline, capture the failure, diagnose it, fix it, and confirm that the repaired version runs successfully. Using the same structure across Codex, Claude, Cursor, Copilot, and Antigravity made the benchmark much more controlled, because success was judged against identical task expectations rather than different writing styles.
+
+The success criteria were task-specific. For Task 1, success meant the dataset loaded without manual intervention, schema and missingness reports were saved, and a cleaned CSV was produced. For Task 2, success meant numeric and categorical summaries existed, plots were saved, and the written insights could be traced back to those artifacts. For Task 3, success meant the target choice was justified, preprocessing stayed inside the sklearn pipeline to avoid leakage, a fixed seed was used, and metrics plus predictions were saved. For Task 4, success meant there was explicit failure evidence, a clear diagnosis of the root cause, and proof that the corrected pipeline ran afterwards.
+
+The main limitations we observed were not only model-quality issues, but also environment and tooling issues that affected different agents in different ways. In the Codex run, Matplotlib initially failed in a headless environment because it tried to use a GUI backend; this was fixed by forcing the `Agg` backend before importing `pyplot`. The modeling task also surfaced a pandas `pd.NA` compatibility issue with `SimpleImputer`, which we fixed by normalizing categorical values while preserving `np.nan` compatibility. A sandbox-related `RandomForestRegressor(n_jobs=-1)` permission problem was solved by switching to `n_jobs=1`. In Copilot’s archived run, the main failures were dependency and version compatibility issues, including missing scikit-learn modules and an older `mean_squared_error` interface that rejected the `squared` argument; that run was repaired by installing dependencies and computing RMSE from MSE manually. Cursor’s archived output was generally strong, but it still had to build in fallbacks, for example rerouting Task 2 to use raw-plus-impute logic if the cleaned dataset was missing. Claude and Antigravity produced useful artifacts, but their limitations were more about inspectability and debugging traceability: Claude relied more heavily on mixed formats such as `.docx`, while Antigravity’s debugging write-up focused on leakage logic rather than a concrete runtime crash.
+
+Most importantly, we did not treat polished language as evidence of correctness. We judged AI output quality by verification against saved artifacts. A high-quality answer had to be reproducible, internally consistent, and supported by files we could inspect. For data preparation, correctness was measured by schema accuracy, missingness counts, and whether remaining nulls were reduced to zero after documented handling. For EDA, quality was measured by whether claims matched saved summaries, correlations, and plots, and whether the insights avoided unsupported causal statements. For modeling, we used objective regression metrics such as MAE, RMSE, and R2 on a fixed train/test split; in the Codex run, for example, ridge regression clearly outperformed the dummy baseline and random forest with MAE 0.452, RMSE 1.804, and R2 0.770. For debugging, quality was measured by whether the failure was real, captured in logs or traceback files, correctly explained, and followed by a successful rerun of the repaired pipeline.
+
+Overall, the benchmark shows that the best AI output is not simply the most fluent report. It is the output that preserves traceability from prompt to code to artifact to conclusion. In this project, that meant using task definitions, saved metrics, plots, logs, and rerunnable scripts as the basis for judging whether an AI system was actually correct, robust, and useful in practice.
+
 ## Standard Comparison Layout
 
 ### Canonical Submission
@@ -23,12 +37,13 @@ All non-canonical model runs live under:
 
 The model folders currently tracked are:
 
+- `archive/model_runs/codex/`
 - `archive/model_runs/claude/`
 - `archive/model_runs/cursor/`
 - `archive/model_runs/copilot/`
 - `archive/model_runs/antigravity/`
 
-Claude, Cursor, Copilot, and Antigravity now contain archived run artifacts.
+Codex, Claude, Cursor, Copilot, and Antigravity now contain archived run artifacts.
 Each archived model folder also includes a `README.md` that maps its native layout into the same comparison categories.
 
 ## Why This Structure Works
